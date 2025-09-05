@@ -1,0 +1,57 @@
+/*universal*/
+*{box-sizing: border-box;
+}
+
+/* type or tag*/
+p
+{
+    margin-block: 1.5rem;
+}
+
+/*classname*/
+.class
+{
+    text-decoration: underline;
+}
+
+/*id*/
+#id
+{
+    font-family: monospace;
+}
+
+/*relational*/
+li:has(a)
+{
+    display: flex;
+}
+
+/*Descendant*/
+header h1
+{
+    /*selects all heading h1*/
+}
+
+/*Child*/
+header > h1
+{
+    /*selects all heading h1*/
+}
+
+/*General sibling*/
+h1 ~ p
+{
+    /*selects all paragraph*/
+}
+
+/*Adjacent sibling*/
+h1 + p
+{
+    /*selects the first paragraph*/
+}
+
+/*chained*/
+h1,p
+{
+    /*selects both elements*/
+}   

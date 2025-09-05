@@ -13,3 +13,17 @@ Las etiquetas meta sirven para proporcionar información adicional sobre la pág
 - ¿Y si está en una carpeta superior?  
     **Respuesta:**  
     Si la imagen está en una carpeta superior, se debe usar `../` para subir un nivel en la estructura de carpetas (por ejemplo, `src="../imagen.jpg"`).
+
+    # Respuesta a la pregunta de la segunda práctica
+
+## Pregunta 10 – Cambios en la visualización con Flexbox
+
+### ¿Hay cambios en la visualización del sitio web? ¿Por qué se dan estos cambios entre tan pocas líneas de diseño CSS?
+
+Sí, al actualizar la página se nota que los elementos se ven diferentes: cambian de lugar, se acomodan mejor y tienen más espacio entre ellos. Esto pasa porque usamos algo llamado **Flexbox**, que es una forma moderna de organizar los elementos en una página web.
+
+Aunque solo se escriben unas pocas líneas de código, Flexbox tiene mucho poder. Nos permite decidir si los elementos van en fila o en columna, si se ajustan al espacio disponible, y cuánto espacio debe haber entre ellos. Es como tener una caja mágica que acomoda todo automáticamente.
+
+### En resumen
+
+Con Flexbox, no hace falta escribir mucho para lograr que la página se vea ordenada y clara. Es una herramienta que ayuda a que el diseño se adapte mejor a diferentes tamaños de pantalla y se vea más profesional, incluso si estamos empezando a aprender CSS.
