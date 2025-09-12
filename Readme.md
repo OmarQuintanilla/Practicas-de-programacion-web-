@@ -27,3 +27,11 @@ Aunque solo se escriben unas pocas líneas de código, Flexbox tiene mucho poder
 ### En resumen
 
 Con Flexbox, no hace falta escribir mucho para lograr que la página se vea ordenada y clara. Es una herramienta que ayuda a que el diseño se adapte mejor a diferentes tamaños de pantalla y se vea más profesional, incluso si estamos empezando a aprender CSS.
+
+# Respuesta a la pregunta de la Tercera práctica
+
+## Pregunta 10 de la pagina 10
+
+### ¿Puedo diseñar toda mi web usando GRID? Porqué se dan estos cambios entre tan pocas líneas de diseño CSS. 
+
+Claro, puedes usar Grid para diseñar toda tu web sin problema. Los cambios se notan rápido porque con muy pocas líneas puedes reorganizar todo el diseño visual. Es como tener un tablero donde mueves las piezas sin tocar el contenido.

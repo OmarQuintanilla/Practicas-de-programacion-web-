@@ -1,0 +1,24 @@
+:root{
+    --blue: #1e90ff;
+    -white: #ffffff;
+    --pink: #ff69b4;
+    --green: #32cd32;
+}
+
+.my-element{
+    width: 200px;
+    height: 200px;
+    background-color: var(--blue);
+    animation: slideIn 3s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
