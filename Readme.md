@@ -35,3 +35,12 @@ Con Flexbox, no hace falta escribir mucho para lograr que la página se vea orde
 ### ¿Puedo diseñar toda mi web usando GRID? Porqué se dan estos cambios entre tan pocas líneas de diseño CSS. 
 
 Claro, puedes usar Grid para diseñar toda tu web sin problema. Los cambios se notan rápido porque con muy pocas líneas puedes reorganizar todo el diseño visual. Es como tener un tablero donde mueves las piezas sin tocar el contenido.
+
+# Respuestas a las preguntas de la cuarta práctica
+
+### ¿Qué ocurre en cada caso presentado anteriormente con los operadores y porqué JS me permite esto?
+
+JavaScript respeta un orden lógico al evaluar operaciones: primero los paréntesis, luego multiplicación y suma. El operador `**` se procesa de derecha a izquierda. Estas reglas aseguran que las expresiones matemáticas se interpreten correctamente.
+
+### ¿El comportamiento de los flujos de control es similar a otros lenguajes y ambientes de desarrollo?
+Sí. La estructura `if/else` permite ejecutar acciones según condiciones. Aunque la sintaxis varía, el principio de decisión es el mismo en casi todos los lenguajes.
