@@ -44,3 +44,14 @@ JavaScript respeta un orden lógico al evaluar operaciones: primero los parénte
 
 ### ¿El comportamiento de los flujos de control es similar a otros lenguajes y ambientes de desarrollo?
 Sí. La estructura `if/else` permite ejecutar acciones según condiciones. Aunque la sintaxis varía, el principio de decisión es el mismo en casi todos los lenguajes.
+
+# Respuestas a las preguntas de la quinta práctica 
+### ¿Qué significa className en React? ¿las props tienen un limite? ¿Quién define las props?
+
+className en React: es la forma de asignar clases CSS a un elemento, porque la palabra class está reservada en JavaScript.
+
+### ¿Las props tienen un límite? 
+No, se pueden pasar tantas como se desee, aunque demasiadas hacen el código difícil de mantener.
+
+### ¿Quién define las props? 
+El componente padre decide que props enviar, y el componente hijo las recibe como parámetros.
