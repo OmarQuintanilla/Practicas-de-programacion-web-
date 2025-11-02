@@ -55,3 +55,30 @@ No, se pueden pasar tantas como se desee, aunque demasiadas hacen el código dif
 
 ### ¿Quién define las props? 
 El componente padre decide que props enviar, y el componente hijo las recibe como parámetros.
+
+# Respuestas a las preguntas de la práctica 8
+
+## ¿Cuál es la diferencia entre autenticación y autorizacion?
+
+**Authentication (Autenticación):**
+- Es el proceso de verificar la identidad de un usuario
+- Confirma quién es el usuario
+- Ejemplo: Login con usuario y contraseña
+
+**Authorization (Autorización):** 
+- Es el proceso de verificar qué permisos tiene un usuario autenticado
+- Determina a qué recursos puede acceder
+- Ejemplo: Roles y permisos de usuario
+
+## ¿Cuál es la función del token JWT en la guía?
+
+El token JWT en la guía cumple las siguientes funciones:
+
+- Almacena de forma segura la información del usuario autenticado
+- Permite mantener la sesión del usuario entre requests
+- Contiene claims (información) como:
+    - ID del usuario
+    - Roles/permisos
+    - Tiempo de expiración
+- Se envía en el header de las peticiones HTTP
+- Evita tener que consultar la base de datos en cada request
